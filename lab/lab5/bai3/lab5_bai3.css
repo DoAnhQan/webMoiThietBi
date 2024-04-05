@@ -1,0 +1,52 @@
+.body{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+.tong{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.trai{
+    width: 50%;
+}
+.trai>img{
+    width: 100%;
+    height: 450px;
+}
+.phai{
+    width: 50%;
+}
+.phai>iframe{
+    width: 100%;
+}
+
+@media screen  and (max-width:800px) {
+    .trai>img{
+        width: 100%;
+        height: 300px;
+    }
+    .phai{
+        width: 100%;
+        height: 300px;
+    }
+    .phai>iframe{
+        width: 100%;
+        height: 300px;
+    }
+}
+@media screen  and (max-width:400px) {
+    .trai>img{
+        width: 100%;
+        height: 100px;
+    }
+    .phai{
+        width: 100%;
+        height: 100px;
+    }
+    .phai>iframe{
+        width: 100%;
+        height: 100px;
+    }
+}

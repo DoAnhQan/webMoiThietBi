@@ -1,0 +1,90 @@
+.tong{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+.hd{
+    background-color: #EEEEEE;
+    height: 70px;
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: larger;
+    line-height: 70px;
+    font-weight: bold;
+}
+.dh{
+    background-color: #EEEEEE;
+    height: 70px;
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: larger;
+    line-height: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.nd{
+    width: 90%;
+    margin-top: 10px;
+    margin: 0px auto;
+    flex-direction: row;
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+}
+.nd1{
+    background-color: #EEEEEE;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 200px;
+    font-size: larger;
+    font-weight: bold;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.nd2{
+    background-color: #EEEEEE;
+    text-align: center;
+    flex-grow: 3;
+    line-height: 200px;
+    font-size: larger;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.nd3{
+    background-color: #EEEEEE;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 200px;
+    font-size: larger;
+    font-weight: bold;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.ft{
+    margin-top: 10px;
+    background-color: #EEEEEE;
+    height: 70px;
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: larger;
+    line-height: 70px;
+    font-weight: bold;
+}
+@media screen and (max-width : 700px) {
+    .nd{
+        display: block;
+        flex-direction: column;
+    }
+    .nd1{
+        width: 100%;
+    }
+    .nd2{
+        width: 100%;
+    }
+    .nd3{
+        width: 100%S;
+    }
+}

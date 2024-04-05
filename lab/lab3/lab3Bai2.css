@@ -1,0 +1,75 @@
+.tong{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.nd{
+    width: 24%;
+    height: auto;
+    border: 1px solid gray;
+}
+.anh{
+    width: 100%;
+    height: 200px;
+}
+.chu{
+    justify-content: center;
+    text-align: justify;
+    width: 100%;
+    word-break: break-all;
+    height: 80px;
+
+}
+.nd2{
+    display: flex;
+    text-align: center;
+}
+.icon>img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+.ten{
+    font-weight: bold;
+}
+.duoi{
+    color: gray;
+}
+.nd3{
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+.btn>button{
+    background-color:  #F66092  ;
+    width: 100px;
+    height: 80%;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 8px;
+    color: aliceblue;
+}
+.btn>button:hover{
+    background-color: aqua;
+}
+.view>p{
+    margin-right: 10px;
+    color: gray;
+    flex-shrink: 1;
+}
+
+@media all and (max-width: 600px) {
+    .tong{
+        flex-direction: column;
+        flex-shrink: 1;
+        gap: 30px;
+    }
+    .nd{
+        flex-direction: column;
+        flex-shrink: 1;
+        width: 100%;
+    }
+}
